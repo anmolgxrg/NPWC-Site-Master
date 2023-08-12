@@ -1878,23 +1878,23 @@ h6 {
   vertical-align: middle;
   border: none;
   outline: none;
-  background-color: var(--thm-base);
+  background-color: #4ecd99;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
   font-family: var(--thm-font);
   padding: 16.5px 39.5px;
   -webkit-transition: 500ms;
-  transition: 500ms;
-  border-bottom-left-radius: 31.5px;
-  border-top-left-radius: 31.5px;
-  background-color: var(--thm-base);
+  transition: 5ms;
+  border-radius: 31.5px;
   color: #fff;
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.5);
 }
 
 .thm-btn:hover {
-  color: var(--thm-base);
+  color: #4ecd99;
   background-color: #fff;
+  transition: 20ms;
 }
 
 .block-text {
@@ -3705,10 +3705,9 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 0;
-  background-color: var(--thm-base);
+  background-color: #4ecd99;
   padding: 19.5px 30px;
-  border-bottom-left-radius: 27px;
-  border-top-left-radius: 27px;
+  border-radius: 27px;
 }
 
 .thm-breadcrumb li {
@@ -6271,8 +6270,7 @@ h6 {
 }
 
 .gallery-testimonials-parallax {
-  background-color: #1d1c1c;
-  background-image: url(../images/backgrounds/testimonials-bg-1-1.png);
+  background-color: #e7e7e7;
   background-position: bottom center;
   background-size: cover;
   background-attachment: fixed;
@@ -6320,7 +6318,7 @@ h6 {
 .call-to-action {
   position: relative;
   margin-bottom: -145px;
-  margin-top: -143px
+  margin-top: -78px
 }
 
 .call-to-action::before {

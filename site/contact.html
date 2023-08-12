@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <html lang="en">
 
 <head>
@@ -15,7 +12,7 @@
     <link rel="manifest" href="assets/images/favicons/site.webmanifest">
     <!-- fonts -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
@@ -32,7 +29,7 @@
 
 
 <body>
-    <div class="preloader">
+    <div class="preloader" style="display: none;">
         <img class="preloader__image" src="assets/images/loader.png" alt="">
     </div><!-- /.preloader -->
     <div class="page-wrapper">
@@ -64,7 +61,7 @@
                                     <li><a href="services.html">Our Services</a></li>
                                     <li><a href="telepsychiatry.html">Telepsychiatry</a></li>
                                     <li><a href="spravato.html">Spravato</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li class="current"><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
                             <!-- /.main-menu -->
@@ -89,8 +86,8 @@
                             <ul>
                                 <li><a href="insurances.html">Insurances Accepted</a></li>
                                 <li><a href="cancellation.html">Cancellation Policy</a></li>
-                                <li><a href="medication-refill-policy.html">Medication Refill Policy</a>
-                                </li>
+                                <li><a href="medication-refill-policy.html">Medication Refill
+                                        Policy</a></li>
                                 <li><a href="financial-policy.html">Financial Policy</a></li>
                                 <li><a href="patient-forms.html">Patient Forms</a></li>
                             </ul>
@@ -99,7 +96,7 @@
                         <li><a href="services.html">Our Services</a></li>
                         <li><a href="telepsychiatry.html">Telepsychiatry</a></li>
                         <li><a href="spravato.html">Spravato</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="current"><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <!-- /.sticky-header__content -->
@@ -127,25 +124,21 @@
                     <div class="col-lg-5">
                         <div class="contact-page__content mb-40">
                             <div class="block-title">
-                                <p><img src="assets/images/shapes/heart-2-1.png" width="15" alt="">Contact With Us</p>
+                                <p><img src="assets/images/shapes/heart-2-1.png" width="15" alt="">Connect With Us</p>
                                 <h3>Feel free to write us <br> a message.</h3>
                             </div><!-- /.block-title -->
-                            <p class="block-text mb-30 pr-10">Lorem Ipsum is simply dummy text of the printing and
-                                typesetting
-                                industry.
-                                Have you done google
-                                research which works all the time. </p>
+
                             <div class="footer-social black-hover">
                                 <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
                                 <a href="#" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
-                                <a href="#" aria-label="pinterest"><i class="fab fa-pinterest-p"></i></a>
+                                <a href="#" aria-label="linkedin"><i class="fab fa-linkedin"></i></a>
                                 <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
                             </div><!-- /.footer-social -->
                         </div><!-- /.contact-page__content -->
                     </div><!-- /.col-lg-5 -->
                     <div class="col-lg-7">
                         <form action="https://layerdrops.com/azino/assets/inc/sendemail.php"
-                            class="contact-form-validated contact-page__form form-one mb-40">
+                            class="contact-form-validated contact-page__form form-one mb-40" novalidate="novalidate">
                             <div class="form-group">
                                 <div class="form-control">
                                     <label for="name" class="sr-only">Name</label>
@@ -181,151 +174,130 @@
 
         <div class="contact-card-carousel ">
             <div class="container">
-                <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 30, "slidesPerView": 3, "breakpoints": {
-                "0": {
-                    "spaceBetween": 0,
-                    "slidesPerView": 1
+                <div class="thm-swiper__slider swiper-container swiper-container-initialized swiper-container-horizontal"
+                    data-swiper-options="{&quot;spaceBetween&quot;: 30, &quot;slidesPerView&quot;: 3, &quot;breakpoints&quot;: {
+                &quot;0&quot;: {
+                    &quot;spaceBetween&quot;: 0,
+                    &quot;slidesPerView&quot;: 1
                 },
-                "480": {
-                    "spaceBetween": 0,
-                    "slidesPerView": 1
+                &quot;480&quot;: {
+                    &quot;spaceBetween&quot;: 0,
+                    &quot;slidesPerView&quot;: 1
                 },
-                "767": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 2
+                &quot;767&quot;: {
+                    &quot;spaceBetween&quot;: 30,
+                    &quot;slidesPerView&quot;: 2
                 },
-                "1199": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 3
+                &quot;1199&quot;: {
+                    &quot;spaceBetween&quot;: 30,
+                    &quot;slidesPerView&quot;: 3
                 }
-            }}'>
+            }}">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="contact-card d-flex flex-column text-center justify-content-center align-items-center background-secondary"
-                                style="background-image: url(assets/images/shapes/contact-card-bg-1-1.png);">
-                                <i aria-label="contact icon" class="azino-icon-family"></i>
-                                <h3>About</h3>
-                                <p>Lorem ipsum is simply free text <br> dolor sit amet, consectetur <br> adipiscing
-                                    ullam blandit</p>
-                            </div><!-- /.contact-card -->
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
+                        <div class="swiper-slide swiper-slide-active" style="width: 369.333px; margin-right: 30px;">
                             <div class="contact-card d-flex flex-column text-center justify-content-center align-items-center background-primary"
                                 style="background-image: url(assets/images/shapes/contact-card-bg-1-1.png);">
                                 <i aria-label="contact icon" class="azino-icon-address"></i>
                                 <h3>Address</h3>
-                                <p>88 Broklyn Golden Street, <br> New York. United States of <br> America.</p>
-                            </div><!-- /.contact-card -->
+                                <p>3930 Pender Dr STE 350<br>Fairfax, VA<br>22030</p>
+                            </div>
                         </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
+                        <div class="swiper-slide swiper-slide-next" style="width: 369.333px; margin-right: 30px;">
+                            <!-- /.contact-card -->
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide" style="width: 369.333px; margin-right: 30px;">
                             <div class="contact-card d-flex flex-column text-center justify-content-center align-items-center background-special"
                                 style="background-image: url(assets/images/shapes/contact-card-bg-1-1.png);">
                                 <i aria-label="contact icon" class="azino-icon-contact"></i>
                                 <h3>Contact</h3>
                                 <p><a href="mailto:">needhelp@azino.com</a> <br> <a href="tel:703-865-8686
-">703-865-8686
-                                    </a></p>
+">703-865-8686</a></p>
                             </div><!-- /.contact-card -->
                         </div><!-- /.swiper-slide -->
                     </div><!-- /.swiper-wrapper -->
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                 </div><!-- /.thm-swiper__slider -->
             </div><!-- /.container -->
         </div><!-- /.contact-card-carousel -->
 
         <div class="google-map__contact">
-            <iframe title="template google map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
-                class="map__contact" allowfullscreen></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106.7778828694595!2d-77.33902141410145!3d38.860441098845016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64f20edc6c80d%3A0x8a5b7239ab546d0f!2sNeuroPsych%20Wellness%20Center%2C%20PC!5e0!3m2!1sen!2sus!4v1691880717396!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div><!-- /.google-map -->
-        <section class="site-footer">
-            <div class="main-footer pt-142 pb-80">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="footer-widget mb-40 footer-widget__about">
-                                <a href="index-2.html" aria-label="logo image">
-                                    <img src="assets/images/logo-light.png" class="footer-widget__logo" width="101"
-                                        alt="">
-                                </a>
-                                <p>Lorem ipsum dolor sit amet consect etur adi pisicing elit sed.</p>
-                                <ul class="list-unstyled footer-widget__contact">
-                                    <li><a href="#"><i class="azino-icon-telephone"></i>703-865-8686
-                                        </a></li>
-                                    <li><a href="#"><i class="azino-icon-email"></i>needhelp@azino.com</a></li>
-                                    <li><a href="#"><i class="azino-icon-pin"></i>88 Broklyn Golden Street, USA</a></li>
-                                </ul><!-- /.footer-widget__contact -->
-                            </div><!-- /.footer-widget footer-widget__about -->
-                        </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="footer-widget footer-widget__link mb-40">
-                                <h3 class="footer-widget__title">Explore</h3><!-- /.footer-widget__title -->
-                                <ul class="list-unstyled footer-widget__link-list">
-                                    <li><a href="causes.html">Our Causes</a></li>
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="news.html">New Campaign</a></li>
-                                    <li><a href="events.html">Upcoming Events</a></li>
-                                    <li><a href="about.html">Site Map</a></li>
-                                    <li><a href="contact.html">Help</a></li>
-                                    <li><a href="causes.html">Donate</a></li>
-                                    <li><a href="contact.html">Contact us</a></li>
-                                    <li><a href="contact.html">Terms</a></li>
-                                </ul><!-- /.footer-widget__link-list -->
-                            </div><!-- /.footer-widget footer-widget__link -->
-                        </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="footer-widget mb-40 footer-widget__blog">
-                                <h3 class="footer-widget__title">Blog</h3><!-- /.footer-widget__title -->
-                                <ul class="list-unstyled footer-widget__blog">
-                                    <li>
-                                        <img src="assets/images/resources/footer-img-1-1.jpg" alt="">
-                                        <p>22 May, 2020</p>
-                                        <h3><a href="news-details.html">You can help the poor in need</a></h3>
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/resources/footer-img-1-2.jpg" alt="">
-                                        <p>22 May, 2020</p>
-                                        <h3><a href="news-details.html">Rise fund for Healthy Food</a></h3>
-                                    </li>
-                                </ul><!-- /.footer-widget__blog -->
-                            </div><!-- /.footer-widget footer-widget__blog -->
-                        </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="footer-widget mb-40 footer-widget__newsletter">
-                                <h3 class="footer-widget__title">Newletter</h3><!-- /.footer-widget__title -->
-                                <p>Signup now to get daily latest news
-                                    & updates from us</p>
-                                <form
-                                    data-url="https://xyz.us18.list-manage.com/subscribe/post?u=20e91746ef818cd941998c598&id=cc0ee8140e"
-                                    class="footer-widget__newsletter-form mc-form">
-                                    <label for="mc-email" class="sr-only">Email Address</label>
-                                    <input type="email" name="EMAIL" id="mc-email" class="dynamic-radius"
-                                        placeholder="Email address">
-                                    <div class="footer-widget__newsletter-btn-wrap d-flex justify-content-end">
-                                        <button type="submit" class="thm-btn dynamic-radius">Subscribe Now</button>
-                                    </div><!-- /.footer-widget__newsletter-btn-wrap -->
-                                    <!-- /.thm-btn -->
-                                </form><!-- /.footer-widget__newsletter-form -->
-                                <div class="mc-form__response"></div><!-- /.mc-form__response -->
-                            </div><!-- /.footer-widget footer-widget__newsletter -->
-                        </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.main-footer -->
-            <div class="footer-bottom">
-                <div class="container">
-                    <span class="scroll-to-top scroll-to-target" data-target="html"><i
-                            class="far fa-angle-up"></i></span>
-                    <p>© Copyright 2021 by Layerdrops.com</p>
-                    <div class="footer-social">
-                        <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
-                        <a href="#" aria-label="pinterest"><i class="fab fa-pinterest-p"></i></a>
-                        <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
-                    </div><!-- /.footer-social -->
-                </div><!-- /.container -->
-            </div><!-- /.footer-bottom -->
-        </section><!-- /.site-footer -->
-
+        <footer class="footer" style="background-color: #2d3691;">
+            <style scoped="">
+                @import url('https://medilance.in/assets/css/style.min.css');
+            </style>
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-lg-6 col-sm-7 col-10"><a href="/" class="logo"><img
+                                    src="/site/assets/images/logo-light.png" alt="NPWC Logo" width="350"
+                                    height="60"></a></div>
+                        <div class="col-lg-6 col-sm-7 col-10 d-lg-flex justify-content-lg-end">
+                            <div class="social-links"><a href="https://twitter.com/medilanceglobal" target="_blank"
+                                    class="social-link"><i class="fab fa-twitter"></i><span>Twitter</span></a><a
+                                    href="https://www.facebook.com/medilance.healthcare" target="_blank"
+                                    class="social-link"><i class="fab fa-facebook"></i><span>Facebook</span></a><a
+                                    href="https://www.instagram.com/medilance/" target="_blank" class="social-link"><i
+                                        class="fab fa-instagram"></i><span>Instagram</span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-middle">
+                    <div class="container">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-3 col-sm-7 col-10">
+                                <div class="info-box">
+                                    <h6 class="info-title">Company</h6>
+                                    <ul class="info-list">
+                                        <li><a href="about.html" class="info-link">About Us</a></li>
+                                        <li><a href="catalogue.html" class="info-link">Products</a></li>
+                                        <li><a href="gallery.html" class="info-link">Gallery</a></li>
+                                        <li><a href="contact.html" class="info-link">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-7 col-10">
+                                <div class="info-box">
+                                    <h6 class="info-title">Support</h6>
+                                    <ul class="info-list">
+                                        <li><a href="contact.html" class="info-link">Reach Out</a></li>
+                                        <li><a href="query.html" class="info-link">Query</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-7 col-10">
+                                <div class="info-box">
+                                    <h6 class="info-title">Legal</h6>
+                                    <ul class="info-list">
+                                        <li><a href="terms.html" class="info-link">Terms of use</a></li>
+                                        <li><a href="privacy-policy.html" class="info-link">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-7 col-10">
+                                <div class="info-box">
+                                    <h6 class="info-title">Resources</h6><a href="query.html"
+                                        class="btn btn-sm btn-secondary-color ls-0 thm-btn"><span>Submit
+                                            Query</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-12 col-sm-7 col-10">
+                            <p>© Medilance 2022,
+                                Developed By Medilance TechOps</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div><!-- /.page-wrapper -->
 
 
@@ -337,10 +309,29 @@
 
             <div class="logo-box">
                 <a href="index-2.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="101"
-                        alt="" /></a>
+                        alt=""></a>
             </div>
             <!-- /.logo-box -->
-            <div class="mobile-nav__container"></div>
+            <div class="mobile-nav__container">
+                <ul class="main-menu__list">
+                    <li class="dropdown"><a href="about.html">About Us<button aria-label="dropdown toggler"><i
+                                    class="fa fa-angle-down"></i></button></a>
+                        <ul>
+                            <li><a href="insurances.html">Insurances Accepted</a></li>
+                            <li><a href="cancellation.html">Cancellation Policy</a></li>
+                            <li><a href="medication-refill-policy.html">Medication Refill
+                                    Policy</a></li>
+                            <li><a href="financial-policy.html">Financial Policy</a></li>
+                            <li><a href="patient-forms.html">Patient Forms</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="clinicians.html">Our Clinicians</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="telepsychiatry.html">Telepsychiatry</a></li>
+                    <li><a href="spravato.html">Spravato</a></li>
+                    <li class="current"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
             <!-- /.mobile-nav__container -->
 
             <ul class="mobile-nav__contact list-unstyled">
@@ -386,7 +377,7 @@
         <div class="search-popup__content">
             <form action="#">
                 <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-                <input type="text" id="search" placeholder="Search Here..." />
+                <input type="text" id="search" placeholder="Search Here...">
                 <button type="submit" aria-label="search submit" class="thm-btn">
                     <i class="fa fa-search"></i>
                 </button>
@@ -412,9 +403,50 @@
     <!-- language swticher feature -->
     <script src="assets/js/lang.js"></script>
     <script src="../../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit"></script>
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+	// ]]>
+    </script>
+
+
+
+
+
 </body>
-
-
 <!-- Mirrored from layerdrops.com/azino/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 09 Aug 2023 19:26:44 GMT -->
 
 </html>
