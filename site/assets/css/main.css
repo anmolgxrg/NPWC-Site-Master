@@ -7494,3 +7494,20 @@ h6 {
 }
 
 /*# sourceMappingURL=main.css.map */
+.drop {
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin-top: 15px;
+  
+  list-style: disc;
+  font-family: var(--thm-font);
+  color: var(--thm-color);
+  font-size: 18px;
+
+}
+.drop li{
+  margin-top: 10px;
+
+}
