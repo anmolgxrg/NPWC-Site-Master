@@ -30,6 +30,16 @@
 /*--------------------------------------------------------------
 # Utility
 --------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -7500,14 +7510,15 @@ h6 {
   border-radius: 0;
   padding: 0;
   margin-top: 15px;
-  
+
   list-style: disc;
   font-family: var(--thm-font);
   color: var(--thm-color);
   font-size: 18px;
 
 }
-.drop li{
+
+.drop li {
   margin-top: 10px;
 
 }

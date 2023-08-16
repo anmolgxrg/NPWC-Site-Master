@@ -72,7 +72,7 @@
             <!-- /.container -->
         </header>
         <!-- /.main-header -->
-        <div class="stricky-header stricked-menu">
+        <div class="stricky-header stricked-menu stricky-fixed">
             <div class="container">
                 <div class="logo-box"><a href="index.html"><img src="assets/images/logo-light.png" width="141" alt=""></a></div>
                 <!-- /.logo-box -->
@@ -101,8 +101,10 @@
         </div>
 
         <!-- /.stricky-header -->
-        <section class="main-slider">
-            <div class="swiper-wrapper" style="transition-duration: 0ms;">
+        <section class="main-slider" style="
+        height: 750;
+    ">
+            <div class="swiper-wrapper" style="height: 750px; transition-duration: 0ms;">
                 <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 1519px; transition-duration: 0ms; opacity: 1; transform: translate3d(0px, 0px, 0px);">
                     <div class="image-layer" style="background-image: url(assets/images/main-slider/slider-1-1.webp);">
                     </div>
@@ -110,9 +112,9 @@
                     <div class="container">
                         <div class="row justify-content-end">
                             <div class="col-lg-7 text-right">
-                                <p>Help the poor in need</p>
-                                <h2>Lend the <br>helping hand <br>get involved.</h2><a href="#" data-target=".donate-options" class="scroll-to-target thm-btn dynamic-radius">Start
-                                    Donating</a>
+                                <p>Behavioral Health &amp; Psychotherapy</p>
+                                <h2>Your Mental<br>Health
+<br>Our Mission.</h2><a href="#" data-target=".donate-options" class="scroll-to-target thm-btn dynamic-radius">Get Appointment</a>
                                 <!-- /.thm-btn dynamic-radius -->
                             </div>
                             <!-- /.col-lg-7 text-right -->
@@ -132,40 +134,41 @@
 
         <!-- /.container -->
         <section class="video-card-two">
-            <div class="container wow fadeInUp animated animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-name: bounce; animation-iteration-count: infinite;">
-                <style>
-                    @keyframes bounce {
-
-                        0%,
-                        100% {
-                            transform: translateY(0);
-                        }
-
-                        50% {
-                            transform: translateY(-10px);
-                        }
-                    }
-                </style>
-                <div class="inner-container dynamic-radius" style="background-image: url(assets/images/shapes/video-bg-1-1.png);">
-                    <div class="row align-items-center">
-                        <div class="col-lg-3">
-                            <div class="video-card-two__box"><img src="assets/images/resources/video-1-1.png" width="100%"><a href="https://www.youtube.com/watch?v=-2e_pjdYTZw" class="video-card-two__box-btn video-popup"><i class="fa fa-play"></i></a>
-                                <!-- /.video-card-two__box-btn -->
+            <div class="pt-30"></div>
+                    <div class="container wow fadeInUp animated" style="visibility: visible; animation-duration: 1500ms; animation-name: bounce; animation-iteration-count: infinite;">
+                        <style>
+                            @keyframes bounce {
+        
+                                0%,
+                                100% {
+                                    transform: translateY(0);
+                                }
+        
+                                50% {
+                                    transform: translateY(-10px);
+                                }
+                            }
+                        </style>
+                        <div class="inner-container dynamic-radius" style="background-image: url(assets/images/shapes/video-bg-1-1.png);">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3">
+                                    <div class="video-card-two__box"><img src="assets/images/resources/video-1-1.png" width="100%"><a href="https://www.youtube.com/watch?v=-2e_pjdYTZw" class="video-card-two__box-btn video-popup"><i class="fa fa-play"></i></a>
+                                        <!-- /.video-card-two__box-btn -->
+                                    </div>
+                                    <!-- /.video-card-two__box -->
+                                </div>
+                                <!-- /.col-lg-4 -->
+                                <div class="col-lg-5">
+                                    <h3>COVID-19 Public Health Emergency Ending</h3>
+                                </div>
+                                <!-- /.col-lg-5 -->
                             </div>
-                            <!-- /.video-card-two__box -->
+                            <!-- /.row -->
                         </div>
-                        <!-- /.col-lg-4 -->
-                        <div class="col-lg-5">
-                            <h3>COVID-19 Public Health Emergency Ending</h3>
-                        </div>
-                        <!-- /.col-lg-5 -->
+                        <!-- /.inner-container -->
                     </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.inner-container -->
-            </div>
-            <!-- /.container -->
-        </section>
+                    <!-- /.container -->
+                </section>
         <section class="about-counter pt-120">
             <div class="container">
                 <div class="row">
@@ -176,15 +179,11 @@
                         </div>
                         <!-- /.block-title -->
                         <p class="about-counter__text">NeuroPsych Wellness Center is a
-                            Fairfax City Psychiatric Clinic dedicated to providing quality
-                            mental health treatment for children,
-                            teens,
-                            and adults. Dr. Alok Kumar,
-                            M.D.,
-                            founded NeuroPsych Wellness Center,
-                            PC with the mission to provide individualized,
+                            Fairfax City Psychiatric Clinic dedicated to to provide individualized,
                             effective,
-                            and empathetic evaluation and treatment for patients. We
+                            and empathetic evaluation and treatment for children,
+                            teens,
+                            and adults. We
                             understand that the circumstances that often lead to seeking
                             psychiatric help may be sensitive in nature. One of our primary
                             goals is to provide an evaluation,
@@ -201,11 +200,13 @@
                     </div>
                     <!-- /.col-lg-6 -->
                     <div class="col-lg-6 ">
-                        <div class="about-counter__image clearfix wow fadeInRight animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms;">
+                        <div class="about-counter__image clearfix wow fadeInRight animated animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-name: fadeInRight;">
                             <div class="about-counter__image-content"><img src="assets/images/shapes/about-count-heart-1-1.png" alt="">
                                 <p>We’re here to support you every step of the way.</p>
                             </div>
-                            <!-- /.about-counter__image-content --><img src="assets/images/resources/about-counter-1-1.jpg" alt="" class="float-left">
+                            <!-- /.about-counter__image-content --><img src="assets/images/resources/about-counter-1-1.jpg" alt="" class="float-left" style="
+    max-width: 100%;
+">
                         </div>
                         <!-- /.about-counter__image -->
                     </div>
@@ -216,11 +217,12 @@
             <!-- /.containerr -->
         </section>
         <section class="call-to-action-two">
+    
             <div class="call-to-action-two__bg" style="background-image: url(assets/images/backgrounds/page-headern-1-1.jpg);">
             </div>
             <!-- /.page-headern__bg -->
             <div class="container pt-80 pb-80"><i class="azino-icon-charity call-to-action-two__icon"></i>
-                <div class="row align-items-center">
+                <div class=" pt-60"></div><div class="row align-items-center">
                     <div class="col-lg-7">
                         <div class="block-title">
                             <p><img src="assets/images/shapes/heart-2-1.png" width="15" alt="">Help Other People</p>
@@ -241,7 +243,8 @@
                 </div>
                 <!-- /.row -->
             </div>
-            <!-- /.container -->
+                <div class=" pb-60"></div>
+
         </section>
         <!-- /.donate-options -->
         <section class="team-about pt-120 pb-120" style="background-image: url(assets/images/team/team-map-1-1.png);">
@@ -267,7 +270,7 @@
                 </div>
                 <!-- /.team-about__top -->
                 <div class="team-4-col">
-                    <div class="wow fadeInLeft animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
+                    <div class="wow fadeInLeft animated animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
                         <div class="team-card text-center content-bg-1">
                             <div class="team-card__image"><img src="assets/images/team/team-2-1.jpg" alt=""></div>
                             <!-- /.team-card__image -->
@@ -282,7 +285,7 @@
                         <!-- /.team-card -->
                     </div>
                     <!-- /.wow fadeInLeft -->
-                    <div class="wow fadeInUp animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" data-wow-delay="100ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 100ms; animation-name: fadeInUp;">
+                    <div class="wow fadeInUp animated animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" data-wow-delay="100ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 100ms; animation-name: fadeInUp;">
                         <div class="team-card text-center content-bg-2">
                             <div class="team-card__image"><img src="assets/images/team/team-2-2.jpg" alt="">
                             </div>
@@ -298,7 +301,7 @@
                         <!-- /.team-card -->
                     </div>
                     <!-- /.wow fadeInLeft -->
-                    <div class="wow fadeInDown animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" data-wow-delay="200ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInDown;">
+                    <div class="wow fadeInDown animated animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" data-wow-delay="200ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInDown;">
                         <div class="team-card text-center content-bg-3">
                             <div class="team-card__image"><img src="assets/images/team/team-2-3.jpg" alt=""></div>
                             <!-- /.team-card__image -->
@@ -314,7 +317,7 @@
                         <!-- /.team-card -->
                     </div>
                     <!-- /.wow fadeInLeft -->
-                    <div class="wow fadeInRight animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInRight;">
+                    <div class="wow fadeInRight animated animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInRight;">
                         <div class="team-card text-center content-bg-4">
                             <div class="team-card__image"><img src="assets/images/team/team-2-4.jpg" alt=""></div>
                             <!-- /.team-card__image -->
@@ -594,7 +597,7 @@
     </div>
     <!-- /.gallery-testimonials-parallax -->
     <section class="call-to-action">
-        <div class="container wow fadeInLeft animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-name: fadeInLeft;">
+        <div class="container wow fadeInLeft animated animated animated animated animated animated animated animated" data-wow-duration="1500ms" style="visibility: hidden; animation-duration: 1500ms; animation-name: none;">
             <div class="row align-items-center">
                 <div class="col-xl-9 col-lg-8">
                     <div class="call-to-action__content">
@@ -941,6 +944,46 @@
 
 // ]]>
     </script>
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+	// ]]>
+    </script>
+
+
 <!-- Code injected by live-server -->
 <script>
 	// <![CDATA[  <-- For SVG support
