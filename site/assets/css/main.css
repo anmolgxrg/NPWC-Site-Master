@@ -3871,7 +3871,7 @@ h6 {
 .event-infos__single h3 {
   margin: 0;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1;
   margin-bottom: 10px;
   font-weight: bold;
@@ -7535,10 +7535,9 @@ h6 {
   border-radius: 0;
   padding-left: 20px;
   margin-top: 10px;
-  list-style: disc;
   color: var(--thm-color);
-  font-size: 20px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 30px;
 }
 .event-details  .container .oldrop a{
   color: #2d3691;
